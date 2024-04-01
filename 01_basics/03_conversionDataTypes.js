@@ -16,8 +16,9 @@ let bool = true
 // console.log(typeof String(number));
 
 // using classes of datatypes conversion can happen
-
-console.log(1+2+"34");
-console.log("1"+3+5);
+let num1 =34
+console.log(num1 + 56 +"44");
+// console.log(1+2+"34");
+// console.log("1"+3+5);
 // In the above 2 examples :first one since first argument was a number therefore it will treat all as numbers and mathematically add them unless a string comes.
 // In the second example since first one was a string now every other argument will be treated as a string only.
