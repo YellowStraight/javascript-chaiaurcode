@@ -44,7 +44,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+// console.log(addone(5))
 
 function addone(num){
     return num + 1
@@ -52,7 +52,23 @@ function addone(num){
 
 
 
-addTwo(5)
+// addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
+
+// Here in the above case the addTwo function was accessed before its 
+
+function one2(){
+    const username = 'Yash'
+
+    function two2(){
+        const website = 'google.com'
+        console.log(username);
+    }
+    // console.log(website);
+    two2()
+}
+
+one2()
+// two2()
