@@ -1,7 +1,7 @@
 let string = "Yash"
 let number = 44
-console.log(String(undefined));
-// console.log(typeof Number(string));
+// console.log(Number(undefined));
+// console.log(Number(null));
 // string when converted to number will give type as number but inside it could be NaN (Not a number)
 // null when converted to a number gives value 0 which could be incorrect in some use cases
 // undefined when converted to a number gives NaN
@@ -17,8 +17,8 @@ let bool = true
 
 // using classes of datatypes conversion can happen
 let num1 =34
-console.log(num1 + 56 +"44");
-// console.log(1+2+"34");
-// console.log("1"+3+5);
+// console.log(num1 + 56 +"44");
+console.log(1+2+"34");
+console.log("1"+3+5);
 // In the above 2 examples :first one since first argument was a number therefore it will treat all as numbers and mathematically add them unless a string comes.
 // In the second example since first one was a string now every other argument will be treated as a string only.

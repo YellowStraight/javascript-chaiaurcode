@@ -4,13 +4,13 @@ const score = 400
 const balance = new Number(100.556)
 // console.log(balance);
 
-console.log(balance.toString().length);
-console.log(balance.toFixed(1));
+// console.log(balance.toString().length);
+// console.log(balance.toFixed(2));
 // toFixed focuses on the numbers after decimal points.
 
 const otherNumber = 123.8966
 
-// console.log(otherNumber.toPrecision(4));
+// console.log(otherNumber.toPrecision(2));
 // precision focuses on the numbers before decimal
 
 const hundreds = 1000000
@@ -31,7 +31,7 @@ const hundreds = 1000000
 // console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 10
-const max = 20
+const max = 15
 
-// console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 // above formula ensures the resultant number comes between 10 and 20 only.

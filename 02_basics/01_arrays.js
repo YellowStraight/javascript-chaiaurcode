@@ -12,7 +12,8 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.push(7)
 // myArr.pop()
 
-// myArr.unshift(9) : it adds a the values passed at the start of the array.
+myArr.unshift(9) /*: it adds a the values passed at the start of the array.*/
+console.log(myArr);
 // myArr.shift(). : it removes the first element of the array
 
 // console.log(myArr.includes(9));
