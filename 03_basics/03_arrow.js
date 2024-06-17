@@ -14,7 +14,15 @@ const user = {
 // user.welcomeMessage()
 
 // console.log(this);
+// above statement prints an empty object since there's no global object but when the same statement is run on browser then window object is
+// referred since it is a global object
 
+let obj1 = {
+    test: function(){ /* this is how function are declared in 
+    console.log(this)
+    }
+}
+console.log(obj1.funciton());
 // function chai(){
 //     let username = "hitesh"
 //     console.log(this.username);
