@@ -18,8 +18,8 @@ const user = {
 // referred since it is a global object
 
 let obj1 = {
-    test: function(){ /* this is how function are declared in 
-    console.log(this)
+    test: function(){ /* this is how function are declared in object */
+    console.log(this) 
     }
 }
 console.log(obj1.funciton());
@@ -38,19 +38,25 @@ console.log(obj1.funciton());
 const chai =  () => {
     let username = "hitesh"
     console.log(this);
+    // console.log(this.username) -- Output is undefined for this as we cannot use this inside funciton to access variables.
 }
 
 
 // chai()
-
+// Arrow function introduced with ec6 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
 
+
+//  Below way of returning the output is called an implicit return when we have only a single return statement.
 // const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
+
+// const addTwo = (num1, num2) => {username: "hitesh"} -- Here we cannot return an object like this object needs to be wrapped in curly braces.
+// 
 const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
